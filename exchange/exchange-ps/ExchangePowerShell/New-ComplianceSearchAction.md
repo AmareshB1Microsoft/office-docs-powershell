@@ -17,6 +17,8 @@ This cmdlet is available in on-premises Exchange and in the cloud-based service.
 
 Use the New-ComplianceSearchAction cmdlet to create actions for content searches in Exchange Server and in the Microsoft Purview compliance portal.
 
+**Note**: After May 26, 2025, the export and preview parameters are no longer functional. For more information, see [Upcoming changes to Microsoft Purview eDiscovery](https://techcommunity.microsoft.com/blog/microsoft-security-blog/upcoming-changes-to-microsoft-purview-ediscovery/4405084).
+
 For information about the parameter sets in the Syntax section below, see [Exchange cmdlet syntax](https://learn.microsoft.com/powershell/exchange/exchange-cmdlet-syntax).
 
 ## SYNTAX
@@ -484,6 +486,8 @@ Accept wildcard characters: False
 ### -Preview
 
 > Applicable: Exchange Server 2016, Exchange Server 2019, Exchange Server SE, Security & Compliance
+
+**Note**: After May 26, 2025, this parameter is no longer functional. For more information, see [Upcoming changes to Microsoft Purview eDiscovery](https://techcommunity.microsoft.com/blog/microsoft-security-blog/upcoming-changes-to-microsoft-purview-ediscovery/4405084).
 
 In Security & Compliance PowerShell, this parameter requires the Preview role. By default, this role is assigned only to the eDiscovery Manager role group.
 
