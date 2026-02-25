@@ -1,14 +1,13 @@
 ---
-external help file: Microsoft.Open.Teams.CommonLibrary.dll-Help.xml
-Module Name: MicrosoftTeams
-online version: https://learn.microsoft.com/powershell/module/teams/new-csteamsunassignednumbertreatment
 applicable: Microsoft Teams
-title: New-CsTeamsUnassignedNumberTreatment
-schema: 2.0.0
 author: serdarsoysal
+external help file: Microsoft.Open.Teams.CommonLibrary.dll-Help.xml
+Locale: en-US
+Module Name: MicrosoftTeams
 ms.author: serdars
-ms.reviewer:
-manager:
+online version: https://learn.microsoft.com/powershell/module/microsoftteams/new-csteamsunassignednumbertreatment
+schema: 2.0.0
+title: New-CsTeamsUnassignedNumberTreatment
 ---
 
 # New-CsTeamsUnassignedNumberTreatment
@@ -20,16 +19,16 @@ Creates a new treatment for how calls to an unassigned number range should be ro
 
 ### Identity (Default)
 ```
-New-CsTeamsUnassignedNumberTreatment [-Identity] <string> [-Description <string>] [-Pattern <string>] [-Target <string>]
- [-TargetType <string>] [-TreatmentPriority <int>]
+New-CsTeamsUnassignedNumberTreatment -Identity <String> [-Description <String>] [-Pattern <String>]
+ [-Target <String>] [-TargetType <String>] [-TreatmentPriority <Int32>] [-MsftInternalProcessingMode <String>]
  [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### ParentAndRelativeKey
 ```
-New-CsTeamsUnassignedNumberTreatment -TreatmentId <string> [-Description <string>] [-Pattern <string>] [-Target <string>]
- [-TargetType <string>] [-TreatmentPriority <int>]
- [-WhatIf] [-Confirm] [<CommonParameters>]
+New-CsTeamsUnassignedNumberTreatment [-Description <String>] [-Pattern <String>] [-Target <String>]
+ [-TargetType <String>] [-TreatmentPriority <Int32>] [-MsftInternalProcessingMode <String>]
+ -TreatmentId <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
